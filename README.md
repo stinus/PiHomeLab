@@ -178,5 +178,3 @@ Copy the files generated in the step above to a folder on the docker host... for
 ```cmd
 \rtk\portainer\certs
 ```
-
-# PiHomeLab
