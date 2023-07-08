@@ -162,16 +162,16 @@ The result is a .crt and .key file
 Navigate to your hostname at port 9443: https://a724s020.autoexpr.com:9443/
 
 At first log on, you'll be warned that the connection is insecure as we don't have a valid ssl certificate yet. Click "Advanced" and the link "proceed to https://a724s020.autoexpr.com:9443".
-![image](https://github.com/stinus/PiHomeLab/assets/16155547/0ce3847c-f157-4d12-a7c1-3d12ff102373)
+![image](https://github.com/stinus/PiHomeLab/assets/16155547/0ce3847c-f157-4d12-a7c1-3d12ff102373)  
 Next a welcome page will ask you to create an administrator user & password:
 ![image](https://github.com/stinus/PiHomeLab/assets/16155547/edd1a2bd-4383-4f58-9403-85e6c6c3d245)  
 Enter the password and store it somewhere safely.
 
 Finally go to the Settings section on the left and upload the crt and key file using the corresponding upload buttons:
-![image](https://github.com/stinus/PiHomeLab/assets/16155547/6a184244-53ce-42c8-b8c1-dea876d3933a)
+![image](https://github.com/stinus/PiHomeLab/assets/16155547/6a184244-53ce-42c8-b8c1-dea876d3933a)  
 
 After cleaning your browser cache and restarting chrome, the page should now be accessible without the SSL Certificate warning:
-![image](https://github.com/stinus/PiHomeLab/assets/16155547/f969980a-f372-486d-8f40-5fc27144a131)
+![image](https://github.com/stinus/PiHomeLab/assets/16155547/f969980a-f372-486d-8f40-5fc27144a131)  
 # Configure NGINX Reversed Proxy with SSL Certificates
 
 Copy the files generated in the step above to a folder on the docker host... for example:
