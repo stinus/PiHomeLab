@@ -164,7 +164,7 @@ Navigate to your hostname at port 9443: https://a724s020.autoexpr.com:9443/
 At first log on, you'll be warned that the connection is insecure as we don't have a valid ssl certificate yet. Click "Advanced" and the link "proceed to https://a724s020.autoexpr.com:9443".
 ![image](https://github.com/stinus/PiHomeLab/assets/16155547/0ce3847c-f157-4d12-a7c1-3d12ff102373)
 Next a welcome page will ask you to create an administrator user & password:
-![image](https://github.com/stinus/PiHomeLab/assets/16155547/edd1a2bd-4383-4f58-9403-85e6c6c3d245)
+![image](https://github.com/stinus/PiHomeLab/assets/16155547/edd1a2bd-4383-4f58-9403-85e6c6c3d245)  
 Enter the password and store it somewhere safely.
 
 Finally go to the Settings section on the left and upload the crt and key file using the corresponding upload buttons:
